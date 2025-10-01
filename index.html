@@ -108,9 +108,6 @@
       section:has(form) {
         width: 80%;
         border-radius: 16px;
-        border: 1px solid rgba(104, 104, 104, 0.2);
-        background: #fff;
-        padding: 2rem 1.5rem;
       }
 
       section:has(form) > div {
@@ -186,6 +183,7 @@
         color: #fff;
         padding-bottom: 0px !important;
         border-radius: 123px !important;
+        margin: 1rem 0;
       }
       .buttons button:hover {
         background-color: #735e37 !important;
@@ -253,7 +251,7 @@
         font-size: 14px;
         color: #686868;
         width: 100%;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
         border-radius: 123px;
         border: 1px solid rgba(104, 104, 104, 0.1);
         background: #fbfbfb;
@@ -384,8 +382,8 @@
           <div class="row">
             <div class="p-relative col-6">
               <input
-                id="firstName"
-                name="firstName"
+                id="givenName"
+                name="givenName"
                 type="text"
                 class="inp"
                 required
@@ -394,8 +392,8 @@
             </div>
             <div class="p-relative col-6">
               <input
-                id="lastName"
-                name="lastName"
+                id="surname"
+                name="surname"
                 type="text"
                 class="inp"
                 required
@@ -425,7 +423,7 @@
             />
           </div>
 
-          <button id="next" type="submit" class="bton">Sign Up</button>
+          <button id="continue" type="submit" class="bton">Sign Up</button>
         </form>
       </section>
     </main>
