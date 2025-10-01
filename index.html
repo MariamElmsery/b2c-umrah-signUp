@@ -211,6 +211,11 @@
         color: #c0091f !important;
       }
 
+      .error.itemLevel,
+      .error {
+        color: #c0091f !important;
+        font-size: 12px;
+      }
       .rememberMe {
         display: flex;
         align-items: center;
@@ -303,7 +308,16 @@
       }
 
       /* /////////////////////////////////////////////////////////////////////// */
-
+      .helpLink,
+      #cancel {
+        display: none;
+      }
+      ul {
+        padding-left: 0 !important;
+      }
+      li::marker {
+        content: "";
+      }
       /* //////////////////////////////////////////////// */
       @media (max-width: 1000px) {
         .main-login > div {
