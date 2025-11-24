@@ -373,8 +373,10 @@
     <main class="main-login d-flex align-items-center my-auto">
       <section class="d-flex flex-column back-color-light rounded-3 p">
         <div>
-          <h3 class="color-secondary" data-b2c-id="MainHeading"></h3>
-          <p style="color: #686868" data-b2c-id="SubHeading"></p>
+          <h3 class="color-secondary">Get Started with Umrah Express</h3>
+          <p style="color: #686868">
+            Create your account now with your email address to get started.
+          </p>
         </div>
 
         <form id="api" class="w-100" method="post" autocomplete="off">
@@ -382,52 +384,47 @@
             <div class="p-relative col-6">
               <input
                 id="givenName"
+                name="givenName"
                 type="text"
                 class="inp"
                 required
-                data-b2c-id="givenName"
-                placeholder=""
+                placeholder="First Name"
               />
             </div>
             <div class="p-relative col-6">
               <input
                 id="surname"
+                name="surname"
                 type="text"
                 class="inp"
                 required
-                data-b2c-id="surname"
-                placeholder=""
+                placeholder="Last Name"
               />
             </div>
           </div>
           <div class="p-relative">
             <input
               id="email"
+              name="email"
               type="text"
               class="inp"
               required
-              data-b2c-id="email"
-              placeholder=""
+              placeholder="Email Address"
             />
           </div>
 
           <div class="p-relative">
             <input
               id="password"
+              name="password"
               type="password"
               class="inp mb-0"
               required
-              data-b2c-id="password"
-              placeholder=""
+              placeholder="Password"
             />
           </div>
 
-          <button
-            id="continue"
-            data-b2c-id="SubmitButton"
-            type="submit"
-            class="bton"
-          ></button>
+          <button id="continue" type="submit" class="bton">Sign Up</button>
         </form>
       </section>
     </main>
